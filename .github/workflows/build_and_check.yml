@@ -1,15 +1,19 @@
 name: Build and Check
 
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 0 1 * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 
+          ruby-version: '3.0' 
           bundler-cache: true 
       - name: build
         run: make build
@@ -17,10 +21,10 @@ jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 
+          ruby-version: '3.0' 
           bundler-cache: true           
       - name: check links
         run: make check_links

@@ -18,92 +18,77 @@ phd_students:
     image: hayden_cook.png
     
 masters_students:    
-  - first_name: Daniel
-    last_name: Hutchings
-    image: daniel_hutchings.jpg
-   
-  - first_name: Nathan
-    last_name: Harris
-    image: nathan_harris.jpg
-    # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
-   
-  - first_name: Evan 
-    last_name: Poff
-    image: evan_poff.jpg
-    link: https://ccl.byu.edu/wiki/students/evan_poff
-
-  - first_name: Wesley 
-    last_name: Stirk
-    image: wesley_stirk2.jpg
-
   - first_name: Jonathan 
     last_name: Thompson
     image: jonathan_thompson.jpg
 
-  - first_name: Michael 
-    last_name: Bjerregaard
-    image: michael_bjerregaard.jpg
-    link: https://blazingmarimba.github.io/
-
-undergrad_students:
-  - first_name: Josh 
-    last_name: Hanni
-    image: josh_hanni.jpg 
-
-  - first_name: Xan 
-    last_name: Johnson
-    image: xan_johnson.jpg
-
   - first_name: Joshua 
     last_name: Fife
     image: joshua_fife.jpg
-
-  - first_name: Samuel 
-    last_name: Reynolds
-    image: sam_reynolds.jpg
-
-  - first_name: Jackson 
-    last_name: Sahleen
-    image: jackson_sahleen.jpg
-  
-  - first_name: Jacob 
-    last_name: Brown
-    image: jacob_brown.jpg
-    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
   - first_name: Nathan
     last_name: Baker
     image: nathan_baker.jpg
     link: https://bakernat003.github.io/pages/log/
     
-  - first_name: Daniel
-    last_name: Ross
-    image: Ross_Daniel.jpg
-
-  - first_name: Garrett
-    last_name: Smith
-    image: garrett_smith.jpg
-    
-  - first_name: Zephram
-    last_name: Tripp
-    image: zephram_tripp.jpg
-
-  - first_name: Zachary
-    last_name: Driskill
-    image: zachary_driskill.jpg
-    
   - first_name: Tyler
     last_name: Ricks
     image: tyler_ricks.jpg
     
-  - first_name: Ethan
-    last_name: Campbell
-    image: ethan_campbell.jpg
+  - first_name: Jacob 
+    last_name: Brown
+    image: jacob_brown.jpg
 
-  - first_name: Jeremy
-    last_name: Read
-    image: jeremy_read.jpg
+  - first_name: Garrett
+    last_name: Smith
+    image: garrett_smith.jpg
+
+  - first_name: Weston
+    last_name: Smith
+    image: Weston_smith.jpg
+
+  - first_name: Caleb
+    last_name: Price
+    image: Caleb_Price.jpg
     
-  - first_name: Jacob
-    last_name: Hansen
-    image: jacob_hansen.jpg  
+  - first_name: Jarek
+    last_name: Wall
+    image: Jarek_Wall.jpg
+
+undergrad_students:
+  - first_name: Collin
+    last_name: Lambert
+    image: collin_lambert.jpg
+    
+  - first_name: Keenan
+    last_name: Faulkner
+    image: keenan_faulkner.jpg
+   
+  - first_name: Colton
+    last_name: Yates
+    image: colton_yates.jpg
+
+  - first_name: Ethan
+    last_name: Hunter
+    image: ethan_hunter.jpg
+
+  - first_name: Caden
+    last_name: Brinkman
+    image: Caden_Brinkman.jpg
+
+  - first_name: Lilly
+    last_name: MacKenzie
+    image: lilly_mackenzie.jpg
+
+  - first_name: Isaac
+    last_name: Gubelin
+    image: isaac_gubelin.jpg
+
+  - first_name: Preston
+    last_name: Walker
+    image: Preston_Walker.jpg
+
+  - first_name: Ayden
+    last_name: Bales
+    image: ayden_bales.jpg
+

@@ -1,4 +1,121 @@
 
+- title: "Digital Design Education Using an Open-Source, Cloud-Based FPGA Toolchain"
+  authors: Weston Smith, Zachary Driskill, Jeffrey Goeders, Michael Wirthlin
+  conference: Intermountain Engineering, Technology and Computing (IETC)
+  year: >
+    2024
+  abstract: >
+    Digital design tools typically have a high barrier to entry: setup is challenging for beginners, and installation often requires a high-performance workstation. In this work, we present an educational framework for digital design using cloud-based resources and open-source tools. We leverage Google Colab notebooks to allow users to run FPGA simulation and design tools remotely, using only a simple web browser. The tools are capable of running simulations with visualizations, and can generate FPGA bitstreams for commercial devices. In addition, we have developed several notebook-based labs to teach digital design topics, including arithmetic, combinational and sequential circuits, and FSMs.
+  url: https://ieeexplore.ieee.org/abstract/document/10564285
+
+- title: "Dynamic Testing of a Commercial FRAM Device Under Gamma Ray Dose and Neutron Beam"
+  authors: Nathan Harris, Wesley Stirk, Dolores Black, Jeffrey Black, Mike Wirthlin, Jeffrey Goeders
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2024
+  abstract: >
+    This work presents dose rate and neutron testing on an FRAM device in dynamic operation during radiation pulses. Radiation failure modes are shown to be unique. Dose rate failure is shown to be based primarily on integrated dose in the radiation pulse and terminates the FRAM operation and can alter up to 8 bytes of data in storage. Neutron failures are attributed to a shifting of data like a clocking error.
+  url: https://ieeexplore.ieee.org/abstract/document/10476494
+
+- title: "Improving the Reliability of FPGA CRO PUFs"
+  authors: Hayden Cook, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
+  conference: International Conference on Field-Programmable Logic and Applications (FPL)
+  year: >
+    2023
+  abstract: >
+    This paper presents a novel technique that greatly improves the reliability of FPGA-based CRO PUFs. We improve upon existing CRO implementations and increase the number of configurations per CLB tile from 16 384 to 1.1 × 10 12 • To maximize reliability, each CRO pair must be configured to maximize its frequency difference. This requires using a novel technique that reduces the configuration search space from 1.1 × 10 12 to 256. Our CRO PUF achieves 100% reliability within the FPGA's maximum rated voltages. We believe that this is the first FPGA PUF that can achieve this level of reliability without the use of post-processing. We also show that in some cases, our CRO may be reliable enough to omit the ECC that is usually required in PUF-based key generation circuits. This allows our CRO PUF to provide the reliability required for key generation while reducing the latency, complexity, and area overhead of ECC algorithms.
+  url: https://ieeexplore.ieee.org/abstract/document/10296262
+
+  
+- title: "Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison"
+  authors: Reilly McKendrick, Keenan Faulkner, Jeffrey Goeders
+  conference: International Conference on Field Programmable Technology (FPT)
+  year: >
+    2023
+  abstract: >
+    Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendor-provided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design. This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
+  url: https://ieeexplore.ieee.org/abstract/document/10416093
+
+- title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"
+  authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, Jeffrey Goeders
+  year: >
+    2023
+  conference: IEEE Physical Assurance and Inspection of Electronics (PAINE)
+  abstract: >
+    Netlist reverse engineering has many uses, from detecting hardware trojans to recovering missing design source files. However, the basic problem of finding IP in a netlist has not been widely discussed. The problem boils down to subgraph isomorphism on graphs constructed from netlists. We present two approaches to identifying IP in larger circuits. IPRec focuses on exploiting hierarchy in the IP design and is a rather conservative approach, while Isoblaze focuses on local properties and connectivity and is more liberal in matching.
+  url: https://ieeexplore.ieee.org/abstract/document/10318012
+
+- title: "The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device"
+  authors: Wesley Stirk, Dolores Black, Jeff Black, Matthew Breeding, Roy Cuoco, Mike Wirthlin, Jeff Goeders
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    This work shows that the static random access memory (SRAM) error rate for a commercial 65-nm device in a dose rate environment can be highly dependent upon the integrated dose (dose rate × pulse duration). While the typical metric for such testing is dose rate upset (DRU) level in rad(Si)/s, a series of dose rate experiments at Little Mountain Test Facility (LMTF) shows dependence on the integrated dose. The error rate is also found to be dependent on the core voltage, and the preradiation value of the bits. We believe that these effects are explained by a well charge depletion caused by gamma ray photocurrent. 
+  url: https://ieeexplore.ieee.org/document/10153483
+
+- title: "Comparison of Neutron Radiation Testing Approaches for a Complex SoC"
+  authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeff Goeders, Mike Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    Commercial Systems-on-a-Chip (SoC) have grown more abundant in recent years, including in space applications. This has led to the need to test SoCs in radiation environments, which is difficult due to their inherent complexity. In this work we present two complementary approaches to testing digital SoC devices-- a bare metal approach and an operating system based approach-- and discuss their advantages and disadvantages. 
+  
+    Experimental data collected using these two methods in September 2021 from Los Alamos Neutron Science Center (LANSCE) on the Xilinx UltraScale+ MPSoC is presented and discussed. 
+  url: stirk_tns23.pdf
+
+- title: "Neutron Radiation Testing of RISC-V TMR Soft Processors on SRAM-Based FPGAs"
+  authors: A. E. Wilson, M. Wirthlin and N. G. Baker
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    Soft, configurable processors within field programmable gate array (FPGA) designs are susceptible to single-event upsets (SEUs). SEU mitigation techniques such as triple modular redundancy (TMR) and configuration memory scrubbing can be used to improve the reliability of soft processor designs. This article presents the improvements in the reliability of five different TMR soft processors within a neutron radiation environment. The TMR processors achieved up to a 75× improvement in reliability at the cost of potentially 4.8× resource utilization and an average 12.4% decrease in maximum frequency compared with the unmitigated designs. This work compares the metrics of reliability, power consumption, and performance among the default unmitigated processors and their TMR variations.
+
+  url: https://ieeexplore.ieee.org/document/10012379
+
+- title: "Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC"
+  authors: Andrew Wilson, Nathan Baker Ethan Campbell, Jackson Sahlee, Michael Wirthlin
+  conference: Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays
+  year: >
+    2023
+  abstract: >
+    FPGAs are increasingly being used in space and other harsh radiation environments. However, SRAM-based FPGAs are susceptible to radiation in these environments and experience upsets within the configuration memory (CRAM), causing design failure. The effects of CRAM upsets can be mitigated using triple-modular redundancy and configuration scrubbing. This work investigates the reliability of a soft RISC-V SoC system executing the Linux operating system mitigated by TMR and configuration scrubbing. In particular, this paper analyzes the failures of this triplicated system observed at a high-energy neutron radiation experiment. Using a bitstream fault analysis tool, the failures of this system caused by CRAM upsets are traced back to the affected FPGA resource and design logic. This fault analysis identifies the interconnect and I/O as the most vulnerable FPGA resources and the DDR controller logic as the design logic most likely to cause a failure. By identifying the FPGA resources and design logic causing failures in this TMR system, additional design enhancements are proposed to create a more reliable design for harsh radiation environments.
+  url: https://dl.acm.org/doi/10.1145/3543622.3573191
+
+- title: "Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering"
+  authors: Reilly McKendrick, Corey Simpson, Brent Nelson, Jeffrey Goeders
+  conference: IEEE International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2022
+  abstract: >
+      While attempting to perform hardware trojan detection, or other low-level design analyses, it is often necessary to inspect and understand the gate-level netlist of an implemented hardware design.  Unfortunately this process is challenging, as at the physical level, the design does not contain any hierarchy, net names, or word groupings.  Previous work has shown how gate-level netlists can be analyzed to restore high-level circuit structures, including reconstructing multi-bit signals, which aids a user in understanding the behavior of the design.
+
+      In this work we explore improvements to the word reconstruction process, specific to FPGA platforms.  We demonstrate how hard-block primitives in a design (carry chains, block memories, multipliers) can be leveraged to better predict which signals belong to the same words in the original design.  Our technique is evaluated using the VTR benchmarks, synthesized for a 7-series Xilinx FPGA, and the results are compared to DANA, a known word reconstruction tool.  
+  url: mckendrick_fpt22.pdf
+
+- title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF (Best Paper FPT 2022)"
+  authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
+  conference: IEEE International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2022
+  abstract: >    
+    This work presents a novel technique to physically clone a ring oscillator physically unclonable function (RO PUF) onto another distinct FPGA die, using precise, targeted aging. The resulting cloned RO PUF provides a response that is identical to its copied FPGA counterpart, i.e., the FPGA and its clone are indistinguishable from each other. Targeted aging is achieved by: 1) heating the FPGA using bitstream-located short circuits, and 2) enabling/disabling ROs in the same FPGA bitstream. During self heating caused by short-circuits contained in the FPGA bitstream, circuit areas containing oscillating ROs (enabled) degrade more slowly than circuit areas containing non-oscillating ROs (disabled), due to BTI affects. This targeted aging technique is used to swap the relative frequencies of two ROs that will, in turn, flip the corresponding bit in the PUF response. 
+    
+    Two experiments are described. The first experiment uses targeted aging to create an FPGA that exhibits the same PUF response as another FPGA, i.e., a clone of an FPGA PUF onto another FPGA device. The second experiment demonstrates that this aging technique can create an RO PUF with any desired response.
+  url: cook_fpt22.pdf
+
+- title: Inducing Non-uniform FPGA Aging Using Configuration-based Short Circuits
+  authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
+  conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2022
+  abstract: >
+    This work demonstrates a novel method of accelerating FPGA aging by configuring FPGAs to implement thousands of short circuits, resulting in high on-chip currents and temperatures. Patterns of ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric. Over the course of several months of running the short circuits on two-thirds of the reconfigurable fabric, with daily characterization of the FPGA 6 performance, we demonstrate a decrease in FPGA frequency of 8.5%. We demonstrate that this aging is induced in a non-uniform manner. The maximum slowdown outside of the shorted regions is 2.1%, or about a fourth of the maximum slowdown that is experienced inside the shorted region. In addition, we demonstrate that the slowdown is linear after the first two weeks of the experiment and is unaffected by a recovery period.
+    Additional experiments involving short circuits are also performed to demonstrate the results of our initial experiments are repeatable. These experiments also use a more fine-grained characterization method that provides further insight into the non-uniformed nature of the aging caused by short circuits. 
+  url: cook_trets22.pdf
+
 - title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
   authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
   year: >
@@ -424,4 +541,4 @@
     In this work we demonstrate a novel method of accelerating FPGA aging by configuring the FPGA to implement thousands of short circuits, resulting in high on-chip currents and temperatures.  Three ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric.  Over the course of several weeks of running the short circuits, with daily characterization of the FPGA performance, we measured a decrease in FPGA frequency greater than 5%.  After aging, the FPGA part was repeatedly characterized during a two week idle period.  Results indicated that the slowdown did not change, and the aging appeared to be permanent.
     In addition, we demonstrated that this aging could be induced in a non-uniform manner.  In our experiments, the short circuits were all placed in the lower two-thirds of the chip, and one of the characterization ring oscillators was placed at the top of the chip, outside of the region with the short circuits.  The fabric at this location exhibited a 1.36% slowdown, only one-quarter the slowdown measured in the targeted region.
   url: gaskin_fpl20.pdf
-  
+

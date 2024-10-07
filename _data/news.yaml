@@ -1,7 +1,126 @@
+- event_name: NSREC 2024
+  date: 2024-07-22
+  description: >
+    Nathan Baker (masters student), Weston Smith (undergraduate student), and Professor Wirthlin traveled to Ottawa, Canada, for the 2024 IEEE Nuclear & Space Radiation Effects Conference (NSREC). Nathan presented his work "Post-Radiation Fault Injection for a Complex FPGA Designs," and Weston presented his work, "A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC."  
+  images:
+    - news_2024/nsrec_1.jpg
+    - news_2024/nsrec_2.jpg
+
+- event_name: FPL 2024
+  date: 2024-09-02 
+  description: >
+    Professor traveled to Turino, Italy, to present the culminating PhD work of Hayden Cook, at the International Conference on Field-Programmable Logic and Applications (FPL).  The work, titled "Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA", explores how one can intentionally age different pieces of an FPGA, including individual LUTs and routing segments.  
+  images:
+    - news_2024/fpl1.jpg
+    - news_2024/fpl2.jpg
+    - news_2024/fpl3.jpg    
+
+- event_name: FCCM 2024
+  date: 2024-05-08
+  description: >
+    Professor Jeff Goeders traveled to Orlando, Florida, to attend the 2024 International Symposium On Field-Programmable Custom Computing Machines (FCCM).  He presented Daniel Hutchings' Master's work, "Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream". This work was [published in the ACM TRETS journal](https://dl.acm.org/doi/10.1145/3656644), and describes a novel method to encrypt FPGA IP through the CAD flow and into the bitstream.
+  images:
+    - news_2024/fccm_2024_goeders.png
+    - news_2024/fccm.jpg
+
+- event_name: LMTF Radiation Testing
+  date: 2024-03-25
+  description: > 
+    Undergraduate researcher Dallin Wood, traveled along with Professors Wirthin and Goeders, to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. 
+    The research project studied how a simply microcontroller (attiny85) would respond to radiation. 
+  images: 
+    - news_2024/lmtf1.JPG
+    - news_2024/lmtf2.JPG
+    - news_2024/lmtf3.JPG
+
+- event_name: HARRIS 2024
+  date: 2024-03-20
+  description: >
+    Professor Goeders attend the 2024 Hardware Reverse Engineering Workshop (HARRIS 2024), hosted by Ruhr University in Bochum, Germany.  He gave a talk titled, "[Leveraging FPGA Reverse Engineering for Secure CAD Flows](https://harris2024.mpi-sp.org/event/#harris24-22-leveraging_fpga_reverse_engineering_for_secure_cad_flows)," that discussed how recent tools in the FPGA open-source community can be leveraged for good, improving the security of FPGA CAD flows.  
+  images:
+    - news_2024/harris1.jpg
+    - news_2024/harris2.jpg
+    
+- event_name: NSF SHREC Annual Workshop 2024
+  date: 2024-01-17
+  description: >
+    Professor Wirthlin and Goeders travel with six students to report on 2023 activities and propose projects for 2024 for the [NSF SHREC](https://nsf-shrec.org/) center. 
+  images:
+    - news_2024/saw2024_1.jpeg
+    - news_2024/saw2024_2.jpeg
+
+- event_name: RADECS 2023
+  date: 2023-09-25
+  description: >
+    Professor Jeff Goeders traveled to Toulouse, France to present at the 2023 [RADECS](https://radecs2023.com/) conference.  The poster was titled, "The Effects of Gamma Ray Dose on Dynamic Operation of a Commercial FRAM Device", co-authored by BYU students Wesley Stirk and Nathan Harris, and Professor Mike Wirthlin.
+  images:
+    - news_2023/radecs2023_1.jpg
+    - news_2023/radecs2023_2.jpg
+    - news_2023/radecs2023_3.jpg
+
+- event_name: FPL 2023
+  date: 2023-09-04
+  description: >
+    Hayden Cook traveled to Gothenburg, Sweden to attend the 2023 International Conference on Field-Programmable Logic and Applications ([FPL](https://2023.fpl.org/)). While there, Hayden presented a poster on his short paper, "Improving the Reliability of FPGA CRO PUFs", co-authored by BYU student Zephraim Tripp and Professor Brad Hutchings and Jeffrey Goeders.   
+  images:
+    - news_2023/fpl1.jpg 
+    - news_2023/fpl2.jpg 
+    - news_2023/fpl3.jpg
+
+- event_name: LBNL Radiation Testing
+  date: 2023-09-01
+  description: >
+    During the week of August 28-September 1st, Michael Bjerregaard and Garrett Smith had the opportunity to participate in a radiation test at the [Lawrence Berkeley National Laboratory (LBNL)](https://www.lbl.gov/). They attended to support a test of the Versal DUT card created by the Xilinx Radiation Test Consortium and to validate the function of the BYU JTAG configuration module (JCM). They were able to help finish setting up to power cabling for the Versal DUT card and place it in the beam. The system performed successfully and we were able to scrub configuration upsets in the Versal part while logging both the upsets and the statuses reported from the part itself. Although there were a number of setbacks, during the setup and test run, the experiment successfully collected programmable logic CRAM upsets at a high rate and determined cross section measurements. The BYU team is looking forward to testing again with more complex designs and more stringent testing conditions.
+  images:
+    - news_2023/lbnl_sep2023.jpg
+
+- event_name: ChipIr Radiation Testing
+  date: 2023-06-29
+  description: >
+    Undergraudate Weston Smith, along with Professor Mike Wirthlin,  traveled to the [ChipIr Beamline](https://www.isis.stfc.ac.uk/Pages/Chipir.aspx) at the ISIS Neutron and Muon source at the Rutherford Appleton Laboratory, UK, to verify the reliability of various computer reliability methodologies. The experiments performed at ChipIr were testing methodologies for multicore SoC (System-on-a-Chip), various DRAM devices, a TMR RISCV processsor and Linux on a MPSOC. The image on the left are the experiments in the testing environment and the image on the right is Weston Smith setting up the experiment.
+  images:
+    - news_2023/chipir_setup.jpeg
+    - news_2023/chipir_weston.jpeg
+
+- event_name: DAC System Design Contest 2023
+  date: 2023-07-12
+  description: >
+    Professor Jeff Goeders organized the [2023 DAC System Design Contest](https://dac-sdc.github.io/2023/), where teams competed to perform fast and accurate image recognition on an embedded FPGA or GPU platform. The contest was sponsored by AMD, and held in conjunction with the 2023 Design Automation Conference ([DAC](https://www.dac.com/)), which was held in San Francisco, California.  
+    Professor Goeders held a special session at DAC where the winning teams presented their design solutions.
+  images:
+    - news_2023/dac_logo.png
+    - news_2023/object_detection_example.jfif
+    - news_2023/kria.png
+
+- event_name: FPGA + SCCM 2023
+  date: 2023-02-15
+  description: >
+    PhD students Andrew Wilson and Hayden Cook, along with Professor Jeff Goeders, attended the 2023 International Symposium on Field-Programmable Gate Arrays ([FPGA](https://www.isfpga.org/)) and Workshop on Security for Custom Computing Machines ([SCCM](https://sccm-workshop.github.io/)).  Andrew presented his paper, "Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC", co-authored by BYU students Nate Baker, Ethan Campbell, and Jackson Sahleen and Professor Mike Wirthlin.  Professor Goeders co-organized the SCCM workshop, where Hayden gave a presentation titled "Cloning the Unclonable: Physically Cloning an FPGA RO PUF".
+  images:
+    - news_2023/fpga_andy.jpg
+    - news_2023/sccm.jpg
+
+- event_name: FPT 2022
+  date: 2022-12-05
+  description: >
+    PhD student Hayden Cook, along with Professor Jeff Goeders, virtually attended the 2022 IEEE International Conference on Field-Programmable Technology (FPT) ([FPT](https://fpt22.hkust.edu.hk/)).  Hayden presented his paper, "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF", co-authored by BYU students Jonathan Thompson and Zephram Tripp  and professor Jeffrey Goeders as well as retired professor Brad Hutchings. This paper ended up winning FPT's best paper award.
+  images:
+   - news_2022/fpt_slide_0.png
+   - news_2022/fpt_slide_1.png
+   - news_2022/fpt_hk.jpg
+
+- event_name: LANSCE Radiation Testing
+  date: 2022-12-20
+  description: >
+    Researchers from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to verify the reliability of various computer reliability methodologies. The experiments performed at LANSCE were a testing methodologies for multicore SoC (System-on-a-Chip), an improved Linux PCAP scrubber, radiation hardened softcore processors, a DDR memory module and attempting to generate bit upsets data for FRAM chips continually performing reads and writes. The image on the left are the experiments exposed to the neutron radiation beam and on the right are researchers involved.
+  images:
+   - news_2022/lansce_experiments.jpg
+   - news_2022/lansce_researchers.jpg
+
 - event_name: LMTF Radiation Testing
   date: 2022-03-18
   description: > 
-    Researchers from the CCL and [Sandia National Laboratory](https://www.sandia.gov/) travelled to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. An SRAM chip (a commonly used component in bigger devices) was irradiated at varying intensities and durations to characterize its response. The people in the image on the left are (from left to right) Dolores Black (SNL), Jeff Black (SNL), Wesley Stirk (CCL), Roy Cuoco (SNL), Mike Wirthlin (CCL), and Jeff Goeders (CCL).
+    Researchers from the CCL and [Sandia National Laboratory](https://www.sandia.gov/) traveled to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. An SRAM chip (a commonly used component in bigger devices) was irradiated at varying intensities and durations to characterize its response. The people in the image on the left are (from left to right) Dolores Black (SNL), Jeff Black (SNL), Wesley Stirk (CCL), Roy Cuoco (SNL), Mike Wirthlin (CCL), and Jeff Goeders (CCL).
   images: 
     - news_2022/lmtf_a.jpg
     - news_2022/lmtf_b.jpg
@@ -65,7 +184,7 @@
 - event_name: PYNQ Utah Release
   date: 2019-02-22
   description: >
-    After almost a year of direct collaboration with BYU CCL students the Xilinx PYNQ team has released a new PYNQ image. One of the featured improvements for this release is new Partial Reconfiguration functionality, a direct result of the collaboration between the PYNQ team and PRIO team. In conjunction with this release the BYU CCL also released a new pip installable python package, complete with a full suite of examples demonstrating this functionality. The release was given the name Utah as a reflection of the contributions made by the PRIO team. The announcement for this PYNQ release can be found [here](https://groups.google.com/forum/embed/#!topic/pynq_project/Ik0YocHpxhU) and the corresponding PRIO release [here](https://groups.google.com/forum/embed/#!topic/pynq_project/mCwADnkv72A).
+    After almost a year of direct collaboration with BYU CCL students the Xilinx PYNQ team has released a new PYNQ image. One of the featured improvements for this release is new Partial Reconfiguration functionality, a direct result of the collaboration between the PYNQ team and PRIO team. In conjunction with this release the BYU CCL also released a new pip installable python package, complete with a full suite of examples demonstrating this functionality. The release was given the name Utah as a reflection of the contributions made by the PRIO team.
     
 - event_name: FPT Conference, Okinawa, Japan
   date: 2018-12-01
@@ -81,3 +200,11 @@
     Hayden Cook (Master's student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
   images:
     - https://www.youtube.com/embed/lfqLlsVfpFY
+
+- event_name: FPT Conference, Yokohama, Japan
+  date: 2023-12-11
+  description: >
+    Reilly McKendrick (PhD student) and Professor Jeff Goeders traveled to Yokohama, Japan to attend the International Conference on Field-Programmable Technology. Reilly presented the paper "Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison", co-authored by himself, Professor Goeders, and Keenan Faulkner.
+  images:
+    - news_2023/FPT2023.jpg
+    - news_2023/YokohamaNoodles2023.jpg
